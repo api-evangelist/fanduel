@@ -3,14 +3,18 @@ url: https://raw.githubusercontent.com/api-evangelist/fanduel/refs/heads/main/ap
 name: FanDuel
 x-type: company
 description: >-
-  FanDuel (Flutter Entertainment) is a leading US sports betting and daily fantasy sports operator. Internal APIs power the apps; partner programs exist via Sportradar/Genius Sports.
+  FanDuel is a major US sports betting and daily fantasy sports operator (FanDuel Sportsbook, FanDuel
+  Casino, FanDuel Fantasy, FanDuel TV). FanDuel does not publish a public developer REST API for its
+  sportsbook, casino, or fantasy products. Internal/private APIs power the apps and a
+  Sportradar/SBTech-derived trading stack but are not available to third-party developers.
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Sports
-  - Betting
-  - Fantasy
-  - Gambling
-  - FanDuel Group
+  - Sports Betting
+  - Daily Fantasy Sports
+  - Sportsbook
+  - Casino
+  - Gaming
+  - Regulated
 created: '2026-05-08'
 modified: '2026-05-08'
 specificationVersion: '0.19'
@@ -18,6 +22,8 @@ apis: []
 common:
   - type: Website
     url: https://www.fanduel.com/
+  - type: AffiliatesProgram
+    url: https://www.fanduelpartners.com/
   - type: Plans
     url: plans/fanduel-plans-pricing.yml
   - type: RateLimits

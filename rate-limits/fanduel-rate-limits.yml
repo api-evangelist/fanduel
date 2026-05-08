@@ -5,31 +5,34 @@ provider: FanDuel
 providerId: fanduel
 created: '2026-05-08'
 modified: '2026-05-08'
-reconciled: false
+reconciled: true
 tags:
-- Sports
-- Betting
-- Fantasy
-- Gambling
-- FanDuel Group
+- Sports Betting
+- Daily Fantasy Sports
+- Sportsbook
+- Casino
+- Gaming
+- Regulated
 - Rate Limiting
 - Quotas
 - Throttling
-description: Placeholder rate-limit artifact for FanDuel. Replace with real limits once researched.
-notes: Initial scaffold — limits have not yet been reconciled.
+description: >-
+  Not applicable. FanDuel does not publish a public developer REST API; there are no public rate-limit
+  thresholds. Internal apps use private APIs that are not documented for third parties.
+notes: N/A — no public API.
 sources:
 - https://www.fanduel.com/
 responseCodes:
   throttled: 429
 limits:
-- name: Default
-  scope: account
-  metric: varies
-  limit: see provider documentation
-  notes: Pending reconciliation.
+- name: N/A
+  scope: n/a
+  metric: n/a
+  limit: no public API
+  notes: FanDuel does not publish developer rate limits.
 policies:
-- name: Backoff Strategy
-  description: Clients should implement exponential backoff with jitter and honor any Retry-After header.
+- name: Use Licensed Data Vendor
+  description: For sports data and odds in your own products, license from Sportradar, Genius Sports, or similar vendors.
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
