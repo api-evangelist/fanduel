@@ -1,7 +1,7 @@
 aid: fanduel
 url: https://raw.githubusercontent.com/api-evangelist/fanduel/refs/heads/main/apis.yml
 name: FanDuel
-x-type: company
+kind: company
 description: >-
   FanDuel is a major US sports betting and daily fantasy sports operator (FanDuel Sportsbook, FanDuel
   Casino, FanDuel Fantasy, FanDuel TV). FanDuel does not publish a public developer REST API for its
