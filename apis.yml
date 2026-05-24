@@ -34,6 +34,8 @@ common:
     url: rate-limits/fanduel-rate-limits.yml
   - type: FinOps
     url: finops/fanduel-finops.yml
+  - type: LLMsTxt
+    url: https://www.fanduel.com/llms.txt
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
