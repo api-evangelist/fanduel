@@ -1,0 +1,62 @@
+aid: fanduel
+name: FanDuel
+url: https://www.fanduel.com
+type: company
+tier: 3
+tier-reason: no-apis
+reviewed: '2026-05-29'
+reviewer: Kin Lane
+summary: >-
+  FanDuel is one of the largest U.S. sports betting and daily fantasy
+  sports operators (FanDuel Sportsbook, FanDuel Casino, FanDuel Fantasy,
+  FanDuel TV/Racing), majority-owned by Flutter Entertainment. The
+  consumer products are powered by internal trading and wallet platforms
+  derived from the Flutter/SBTech stack with upstream odds and data
+  feeds from Sportradar, Genius Sports, and similar B2B providers. As of
+  May 2026, FanDuel does not publish a public developer REST or
+  streaming API for any of its sportsbook, casino, fantasy, or racing
+  products. There is no developer portal, no OpenAPI specification, no
+  documented WebSocket/SSE odds stream, no public SDKs, and no public
+  webhook program. The FanDuel GitHub organization exists but contains
+  no developer-facing repositories. Third-party access to FanDuel odds
+  is only available indirectly through licensed odds aggregators
+  (Sportradar, Genius Sports, OddsJam, The Odds API, OddsPapi, etc.) or
+  via unauthorized scraping of the consumer apps, which violates
+  FanDuel's Terms of Service. Partnership/affiliate programs
+  (fanduelpartners.com) are marketing-only and do not expose a
+  programmable API surface.
+findings:
+  apis: 0
+  openapi_specs: 0
+  sdks: 0
+  developer_portal: false
+  streaming_api: false
+  webhooks_public: false
+  status_page_public: false
+  changelog_public: false
+  github_public_repos: 0
+  mobile_apps: 4
+strengths:
+  - Dominant U.S. market position in regulated sports betting and DFS under Flutter Entertainment
+  - Mature consumer iOS/Android footprint across Sportsbook, Casino, Fantasy, and Racing
+  - Active affiliate/partner program (fanduelpartners.com) for marketing distribution
+  - Engineering scale and trading infrastructure to support a partner API surface if business priorities shift
+gaps:
+  - No public developer REST API for sportsbook, casino, fantasy, or racing products
+  - No documented public streaming API (WebSocket or SSE) for live odds or in-play data
+  - No developer portal, sandbox, API keys, or self-service onboarding
+  - No public OpenAPI/AsyncAPI specifications
+  - No public SDKs, CLIs, or webhook program
+  - No public status page or machine-readable changelog for any API surface
+  - GitHub organization (github.com/fanduel) holds no developer-facing public repositories
+  - Regulatory posture (state-by-state gaming licensure, KYC/AML, responsible gaming) is a structural barrier to opening any public developer surface
+recommendation: >-
+  Tier-3, no-apis. Maintain the registry entry as the canonical
+  reference for FanDuel's (lack of) public API posture and the broader
+  U.S. regulated sportsbook landscape, but do not invest further
+  pipeline cycles unless FanDuel or its parent Flutter Entertainment
+  publishes a partner, affiliate, or B2B trading API with developer
+  documentation. Pair this entry with profiles of upstream data
+  providers (Sportradar, Genius Sports) and licensed aggregators
+  (OddsJam, The Odds API) where the actual programmable surface for
+  FanDuel-derived odds and markets lives.
