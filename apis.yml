@@ -7,7 +7,7 @@ description: >-
   Casino, FanDuel Fantasy, FanDuel TV). FanDuel does not publish a public developer REST API for its
   sportsbook, casino, or fantasy products. Internal/private APIs power the apps and a
   Sportradar/SBTech-derived trading stack but are not available to third-party developers.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Sports Betting
   - Daily Fantasy Sports
