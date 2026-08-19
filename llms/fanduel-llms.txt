@@ -1,0 +1,31 @@
+# FanDuel — AI Answer Surface
+
+> Canonical, fact-checked mirrors of FanDuel's public information for safe,
+> high-precision AI answers.
+
+## Product
+
+- [Sportsbook Overview](https://www.fanduel.com/knowledge/product/sportsbook-overview.md)
+- [Fantasy Overview](https://www.fanduel.com/knowledge/product/fantasy-overview.md)
+- [FanDuel Sports Network Overview](https://www.fanduel.com/knowledge/product/fsn-overview.md)
+
+## Documentation
+
+- [Responsible Play Controls](https://www.fanduel.com/knowledge/docs/responsible-play-controls.md)
+- [Account Verification Facts](https://www.fanduel.com/knowledge/docs/account-verification-facts.md)
+- [Taxes Reporting Facts](https://www.fanduel.com/knowledge/docs/taxes-reporting-facts.md)
+
+## Guides
+
+- [Positive Play Guide](https://www.fanduel.com/knowledge/guides/positive-play-guide.md)
+- [FSN Devices Access](https://www.fanduel.com/knowledge/guides/fsn-devices-access.md)
+
+## Policies
+
+- [Terms Highlights](https://www.fanduel.com/knowledge/policies/terms-highlights.md)
+- [Privacy Highlights](https://www.fanduel.com/knowledge/policies/privacy-highlights.md)
+
+## Support
+
+- [Contact Hours](https://www.fanduel.com/knowledge/support/contact-hours.md)
+- [Responsible Gaming Resources](https://www.fanduel.com/knowledge/support/responsible-gaming-resources.md)
